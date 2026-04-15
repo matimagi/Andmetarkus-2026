@@ -1,0 +1,11 @@
+Andmete kirjeldus - D-PRODUCT;;
+D_PRODUCT sisaldab toote andmeid. Iga rida süsteemis on unikaalne toode. ;;
+Tabeli info tuleb müügisüsteemist (tootehaldus/laohaldussüsteemist?).;;
+Tabelit uuendatakse üks kord päevas kell 6 hommikul.;;
+;;
+NIMI;FORMAAT;KIRJELDUS
+ProductID;VARCHAR(4);Toote unikaalne ID
+ProductName;TEXT;Toote unikaalne nimetus
+Category;TEXT;Kategooria nimetus
+CostPrice;DECIMAL (3,1);Ostuhind fikseeritud komakohaga (üks) arv ühe tooteühiku kohta
+Manufacturer;TEXT;Tootja ettevõtte nimi
